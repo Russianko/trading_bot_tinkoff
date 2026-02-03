@@ -14,27 +14,26 @@ The project stores configurations and runtime state locally in the `data/` folde
 ├─ bot.py
 ├─ trading_api.py
 ├─ misc.py
-├─ trade_db.py                 # branch with SQLite (fills + отчёты)
+├─ trade_db.py            # SQLite branch (fills + reports)
 ├─ Settings.py
-├─ config.py
-├─ UI.py                       # GUI logic
-├─ qUI.py                      # auto-generated UI (pyuic5)
-├─ main.ui                     # Qt Designer
+├─ UI.py                  # GUI logic
+├─ qUI.py                 # auto-generated UI (pyuic5)
+├─ main.ui                # Qt Designer source
+├─ config.py              # local config (not tracked)
 ├─ run_bot.bat
 ├─ run_panel.bat
 ├─ setup.bat
 ├─ update.bat
 ├─ installPython.txt
-└─ data/
-   ├─ API.txt                  # (local) keys (empty, just for structure not for git)
-   ├─ couples.txt              # (local) params/tickers (empty, just for structure not for git)
-   ├─ settings.txt             # (local) (empty, just for structure not for git)
+└─ data/                  # local runtime data (not tracked)
+   ├─ API.txt             # local keys/credentials
+   ├─ couples.txt         # local tickers/params
+   ├─ settings.txt        # local runtime state
    ├─ logs/
    │  ├─ error_log.jsonl
    │  └─ operation_log.jsonl
-   ├─ orders/                  # (option) JSON-cards
-   └─ clearing/                # (option) snapshots
-
+   ├─ orders/             # optional JSON order cards
+   └─ clearing/           # optional snapshots/service files
 ## Quick start (Windows)
 
 ### 1) Install Python
