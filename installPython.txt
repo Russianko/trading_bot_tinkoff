@@ -1,0 +1,9 @@
+Вам нужно установить Python, вот видео смотреть можно с 0.40с
+https://www.youtube.com/watch?v=LKVVtVVkj7Q&ab_channel=egoroff_channel
+
+Ссылка на Python - https://www.python.org/ftp/python/3.8.8/python-3.8.8-amd64.exe
+Лучше использовать версию 3.8.8
+
+Также обратите внимание, что нужно поставить галочку Add Python
+http://prntscr.com/114l089
+

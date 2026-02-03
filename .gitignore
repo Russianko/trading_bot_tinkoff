@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# venv
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets / local config
+config.py
+.env
+*.env
+data/API.txt
+
+# Runtime data
+data/logs/
+data/orders/
+data/clearing/
+
+# SQLite / local databases
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+data/*.sqlite*
